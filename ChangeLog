@@ -1,5 +1,10 @@
 2013-05-14  Martin Simmons  <martin@lispworks.com>
 
+	* swank-lispworks.lisp (lispworks-severity): Fix error when using
+	the :explain declaration.
+
+2013-05-14  Martin Simmons  <martin@lispworks.com>
+
 	* swank-lispworks.lisp (find-top-frame): Improve backtraces from
 	swank::safe-backtrace.
 

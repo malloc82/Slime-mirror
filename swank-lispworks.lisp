@@ -591,6 +591,8 @@ Return NIL if the symbol is unbound."
 (defun lispworks-severity (condition)
   (cond ((not condition) :warning)
 	(t (etypecase condition
+             #-(or lispworks4 lispworks5)
+             (conditions:compiler-note :note)
 	     (error :error)
 	     (style-warning :warning)
 	     (warning :warning)))))
