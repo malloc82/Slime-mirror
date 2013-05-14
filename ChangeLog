@@ -1,3 +1,8 @@
+2013-05-14  Martin Simmons  <martin@lispworks.com>
+
+	* swank-lispworks.lisp (find-top-frame): Improve backtraces from
+	swank::safe-backtrace.
+
 2013-04-23  Stas Boukarev  <stassats@gmail.com>
 
 	* slime.el (slime-draw-connection-list): Make sure not to call
